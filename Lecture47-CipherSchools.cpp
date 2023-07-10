@@ -35,7 +35,7 @@ int main() {
     for (int node : sorted_nodes) {
         cout << node << " ";
     }
-    cout << endl;
+    cout<< endl;
     return 0;
 }
 

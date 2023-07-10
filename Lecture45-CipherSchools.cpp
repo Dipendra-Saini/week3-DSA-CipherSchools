@@ -43,9 +43,9 @@ int main() {
     adj = {{0, 1}, {1, 2}, {2, 3}, {3, 0}};
     visited.resize(adj.size(), false);
     if (detectCycleUndirected(0)) {
-        cout << "The undirected graph has a cycle." << endl;
+        cout <<"The undirected graph has a cycle." << endl;
     } else {
-        cout << "The undirected graph does not have a cycle." << endl;
+        cout <<"The undirected graph does not have a cycle." << endl;
     }
     return 0;
 }
