@@ -1,6 +1,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
+//Graph Representation
 // Adjacency Matrix and Adjacency List
 void print(vector<vector<bool>> &adj_max){
     for(int i=0;i<adj_max.size();i++){
